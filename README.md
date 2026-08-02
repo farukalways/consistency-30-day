@@ -28,6 +28,8 @@ Welcome to my repository dedicated to daily problem-solving! This space serves a
 If you have suggestions, optimizations, or just want to connect:
 
 
-[![Live Portfolio](https://faruk-ahmad.vercel.app/)
+<a href="https://faruk-ahmad.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_Visit_Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" />
+</a>
 
 “Consistency is what transforms average into excellence.” 🌟
