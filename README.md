@@ -29,7 +29,7 @@ If you have suggestions, optimizations, or just want to connect:
 
 
 <a href="https://faruk-ahmad.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/🌐_Visit_Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" />
+  <img src="https://img.shields.io/badge/🌐_Visit_Live_Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" />
 </a>
 
 “Consistency is what transforms average into excellence.” 🌟
