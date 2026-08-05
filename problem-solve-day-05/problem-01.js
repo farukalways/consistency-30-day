@@ -8,5 +8,3 @@ function upperLetter(arr) {
   }
   return arr.length;
 }
-upperLetter(fruits);
-console.log(fruits);
