@@ -1,8 +1,8 @@
 // একটি স্ট্রিং এর মধ্যে কতগুলো vowel আছে তা বের করো।
 
 const text = "javascript";
-
-function vowelCount(str) {
+//  way 1
+function vowelCount1(str) {
   const lowerStr = str.toLowerCase();
   let result = 0;
 
@@ -20,4 +20,17 @@ function vowelCount(str) {
   return result;
 }
 
-console.log(vowelCount(text));
+// way 2
+function vowelCount2(str) {
+  let count = 0;
+  const vowels = "aeiou";
+  const lowerStr = str.toLowerCase();
+
+  for (const char of lowerStr) {
+    if (vowels.includes(char)) {
+      count++;
+    }
+  }
+
+  return count;
+}
