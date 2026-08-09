@@ -16,3 +16,23 @@ longestTag → সবচেয়ে বড় hashtag-এর টেক্সট
 কোনো hashtag না থাকলে longestTag হবে ""
 
 */
+
+function countHashtags(caption) {
+  if (typeof caption !== "string") {
+    return "Invalid";
+  }
+
+  const hashtags = caption
+    .split(" ")
+    .filter((word) => word.startsWith("#") && word.length > 1)
+    .map((word) => word.slice(1));
+
+  const longestTag = hashtags.reduce((longest, current) => {
+    return current.length > longest.length ? current : longest;
+  }, "");
+
+  return {
+    hashtagCount: hashtags.length,
+    longestTag: longestTag,
+  };
+}
