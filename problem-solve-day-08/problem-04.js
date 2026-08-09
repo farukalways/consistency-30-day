@@ -24,3 +24,18 @@ Array Empty হয়।
 Array-এর মধ্যে Number ছাড়া অন্য কোনো Data Type থাকে।
 
 */
+
+function bonusScore(scores) {
+  if (!Array.isArray(scores) || scores.length === 0) {
+    return "Invalid";
+  }
+  const isValidNumbers = scores.every((score) => typeof score === "number");
+  if (!isValidNumbers) {
+    return "Invalid";
+  }
+  const totalScore = scores
+    .map((score) => score + 10)
+    .reduce((sum, updatedScore) => sum + updatedScore, 0);
+
+  return totalScore;
+}
