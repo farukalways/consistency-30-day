@@ -23,3 +23,19 @@ Input Array না হলে
 Empty Array হলে
 Object-এ isActive property না থাকলে
 */
+
+function filterActiveUsers(users) {
+  if (!Array.isArray(users) || users.length === 0) {
+    return "Invalid";
+  }
+
+  const hasValidObjects = users.every(
+    (user) => typeof user === "object" && user !== null && "isActive" in user,
+  );
+
+  if (!hasValidObjects) {
+    return "Invalid";
+  }
+
+  return users.filter((user) => user.isActive === true);
+}
