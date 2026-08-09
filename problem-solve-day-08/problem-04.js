@@ -1,0 +1,26 @@
+/*
+একটি Programming Contest-এ প্রতিটি Participant-এর Score একটি Number Array আকারে দেওয়া আছে।
+
+Contest শেষে প্রত্যেক Participant-এর Score-এর সাথে ১০ Bonus Marks যোগ করা হবে। এরপর সব Updated Score যোগ করে Total Score Return করতে হবে।
+
+Input
+একটি Number Array, যেমনঃ 
+[80, 65, 90, 75]
+
+Output
+350
+
+Explanation
+Updated Scores: (প্রত্যেকের সাথে 10 যোগ করে)
+[90, 75, 100, 85]
+Total: 
+90 + 75 + 100 + 85 = 350
+
+
+Challenge
+Return "Invalid" যদি—
+Input Array না হয়।
+Array Empty হয়।
+Array-এর মধ্যে Number ছাড়া অন্য কোনো Data Type থাকে।
+
+*/
