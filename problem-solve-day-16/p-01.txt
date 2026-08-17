@@ -1,0 +1,11 @@
+🧪 প্রবলেম ১: 
+
+Type Annotations, Functions & Optional Propertiesটাস্ক:
+
+createProduct নামে একটি ফাংশন তৈরি করুন।
+
+১. ফাংশনটি ৩টি প্যারামিটার নেবে:title (স্ট্রিং টাইপ)price (নাম্বার টাইপ)discount (এটি অপশনাল নাম্বার টাইপ—অর্থাৎ থাকতেও পারে, নাও থাকতে পারে)
+
+২. ফাংশনটির রিটার্ন টাইপ হবে একটি অবজেক্ট, যার স্ট্রাকচার/শেপ হবে:title: string price: number isDiscounted: boolean
+
+৩. ফাংশনের ভেতর লজিক:যদি discount দেওয়া থাকে, তবে রিটার্ন করা অবজেক্টের isDiscounted হবে true এবং price হবে মূল দাম থেকে ডিসকাউন্ট বাদ দেওয়া দাম।যদি discount না দেওয়া থাকে, তবে isDiscounted হবে false এবং price হবে মূল দামই।
