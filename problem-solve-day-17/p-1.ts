@@ -1,3 +1,5 @@
+// একটি সিস্টেমের ব্যবহারকারীর Role এবং Status পরিচালনা করার জন্য একটি ফাংশন লিখুন
+
 type UserRole = "admin" | "editor" | "viewer";
 type UserStatus = "active" | "suspended";
 interface User {
@@ -11,8 +13,6 @@ const newUser: User = {
   role: "admin",
   status: "suspended",
 };
-
-// ফাংশনটি ওই ইউজার অবজেক্টের status আপডেট করে নতুন ইউজার অবজেক্টটি রিটার্ন করবে।
 const updateStatus = (user: User, newStatus: UserStatus) => {
   return {
     ...user,
